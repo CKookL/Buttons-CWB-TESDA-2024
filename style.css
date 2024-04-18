@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-optical-sizing: auto;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A6D0DD;
+
+}
+a{
+    margin: 5px;
+}
+
+nav h5{
+    margin: 0;
+}
+h5{
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.col.s12.m6.l4.xl4{
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.185);
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.05);
+}
+.col.s12.m12.l6.xl6{
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.05);
+    margin: auto;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.185);
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+@media only screen and (min-width: 601px){
+.row .col.m6 {
+    width: 45%;
+    margin-left: 0;
+}
+
+}
+@media only screen and (min-width: 993px) {
+    .row .col.l4 {
+        width: 30.3333333333%;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .row .col.xl1 {
+        width:30.3333333333%;
+        margin-left: 0;
+    }
+}
